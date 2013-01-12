@@ -243,17 +243,8 @@
     <Content Include="DataServices\Packages.svc" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Packages\MvcMailer.4.0.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\Newtonsoft.Json.4.5.11.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\NLog.2.0.0.2000.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Pkgs\knockoutjs.2.1.0.nupkg" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="Packages\Readme.txt" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

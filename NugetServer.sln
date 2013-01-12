@@ -12,10 +12,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer.Web.ClientApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer.Web.Server", "NugetServer.Web.Server\NugetServer.Web.Server.csproj", "{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestPackage", "TestPackage", "{B1808CD0-1672-4B74-AB52-6C16944E20DA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPackage.Lib", "TestPackage.Lib\TestPackage.Lib.csproj", "{A10A029B-0F73-45D1-A972-EAE93692DE70}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,15 +26,8 @@ Global
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A10A029B-0F73-45D1-A972-EAE93692DE70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A10A029B-0F73-45D1-A972-EAE93692DE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A10A029B-0F73-45D1-A972-EAE93692DE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A10A029B-0F73-45D1-A972-EAE93692DE70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A10A029B-0F73-45D1-A972-EAE93692DE70} = {B1808CD0-1672-4B74-AB52-6C16944E20DA}
 	EndGlobalSection
 EndGlobal
