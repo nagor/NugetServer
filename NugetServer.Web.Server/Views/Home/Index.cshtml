@@ -1,0 +1,45 @@
+﻿@using System.Configuration
+@{
+    ViewBag.Title = "NuGet Private Repository";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>You are running NuGet.Server v @typeof(NuGet.Server.DataServices.Package).Assembly.GetName().Version</h2>
+            </hgroup>
+            <p>
+                Click <a href="@VirtualPathUtility.ToAbsolute("~/nuget/Packages")" target="_blank">here</a> to view your packages.
+            </p>
+        </div>
+    </section>
+}
+<h3>Repository URLs</h3>
+<ol class="round">
+    <li class="one">
+        In the package manager settings, add the following URL to the list of Package Sources:
+        <blockquote>
+            <strong>@Helpers.GetRepositoryUrl(Request.Url, Request.ApplicationPath)</strong>
+        </blockquote>
+    </li>
+    <li class="two">
+            @if (String.IsNullOrEmpty(ConfigurationManager.AppSettings["apiKey"])) {
+                @: To enable pushing packages to this feed using the nuget command line tool (nuget.exe). Set the api key appSetting in web.config.
+            }else {
+            @: Use the command below to push packages to this feed using the nuget command line tool (nuget.exe).
+            }
+            <blockquote>
+                <strong>nuget push {package file} -s @Helpers.GetPushUrl(Request.Url, Request.ApplicationPath) {apikey}</strong>
+            </blockquote>            
+        </li>
+    
+        @if (Request.IsLocal) {
+    <li class="three">
+        To add packages to the feed put package files (.nupkg files) in the folder 
+        <blockquote>
+            <strong>
+                @NuGet.Server.Infrastructure.PackageUtility.PackagePhysicalPath</strong>
+        </blockquote>
+        </li>
+        }
+</ol>
