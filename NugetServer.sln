@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer.Web.ClientApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer.Web.Server", "NugetServer.Web.Server\NugetServer.Web.Server.csproj", "{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLib", "TestLib\TestLib.csproj", "{73A638A4-983E-41D6-BDDF-DDF5FB3D91CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4262EC9-6813-49C4-BE19-4CB0E0A712EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A638A4-983E-41D6-BDDF-DDF5FB3D91CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A638A4-983E-41D6-BDDF-DDF5FB3D91CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A638A4-983E-41D6-BDDF-DDF5FB3D91CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A638A4-983E-41D6-BDDF-DDF5FB3D91CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
