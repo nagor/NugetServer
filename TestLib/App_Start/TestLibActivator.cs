@@ -10,8 +10,8 @@ namespace TestLib
     {
         public static void PreStart()
         {
-            TestLibSettings.K1 = ConfigurationManager.AppSettings["k1"];
-            TestLibSettings.K2 = ConfigurationManager.AppSettings["k2"];
+            TestLibSettings.K1 = ConfigurationManager.AppSettings["TestLib:k1"];
+            TestLibSettings.K2 = ConfigurationManager.AppSettings["TestLib:k2"];
         }
     }
 }
