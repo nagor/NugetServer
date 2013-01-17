@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace TestLib.Controllers
+namespace $rootnamespace$.Controllers
 {
     public class SettingsController : Controller
     {
@@ -8,7 +8,5 @@ namespace TestLib.Controllers
         {
             return View();
         }
-
-
     }
 }

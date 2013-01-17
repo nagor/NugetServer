@@ -1,10 +1,11 @@
 using System.Configuration;
 using TestLib;
+using $rootnamespace$;
 
 //call PreStart method before web application starts
 [assembly: WebActivator.PreApplicationStartMethod(typeof(TestLibActivator), "PreStart")]
 
-namespace TestLib
+namespace $rootnamespace$
 {
     public static class TestLibActivator
     {

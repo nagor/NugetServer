@@ -13,6 +13,6 @@
     <description>$description$</description>
     <releaseNotes>This is the first release</releaseNotes>
     <copyright>Copyright 2013</copyright>
-    <tags>test example</tags>
-  </metadata>
+    <tags>test example pkg</tags>
+  </metadata>  
 </package>
